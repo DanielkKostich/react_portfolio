@@ -25,7 +25,7 @@ export default function Container() {
   return (
     <div>
       
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
        {renderPage()}
     </div>
   );
