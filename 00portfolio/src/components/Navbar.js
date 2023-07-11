@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-pills nav-justified">
       <li className="nav-item">
         <a
           href="#home"
