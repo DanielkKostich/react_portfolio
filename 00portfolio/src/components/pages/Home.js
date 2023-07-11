@@ -2,11 +2,13 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div class="jumbotron text-center">
+      <div  class="bg-success">
+      <h1 className=" ">Home Page</h1>
       <p>
        hello
       </p>
+    </div>
     </div>
   );
 }

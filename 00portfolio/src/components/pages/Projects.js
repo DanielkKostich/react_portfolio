@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div>
+    <div class="jumbotron text-center">
       <h1>Projects</h1>
-      <ul>
+      <ul class="list-unstyled">
         <li>hi</li>
         <li>hi</li>
         <li>hi</li>
