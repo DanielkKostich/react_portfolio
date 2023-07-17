@@ -1,0 +1,25 @@
+.nav {
+    background-image: radial-gradient(circle, orange, yellow, rgb(45, 0, 128));
+    justify-content: center;
+    
+}
+
+.home {
+    height: 101vh;
+    background-image: radial-gradient(circle, orange, yellow, rgb(45, 0, 128));
+    
+}
+
+.para {
+    color: rgb(0, 0, 0);
+    margin: 4%;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+a:active {
+    color: red;
+}

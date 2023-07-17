@@ -2,18 +2,18 @@ import React from 'react';
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-pills nav-justified">
-      <li className="nav-item">
-        <a
+    <ul className="nav ">
+       <li >
+       <a 
           href="#home"
           onClick={() => handlePageChange('Home')}
                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
-        </a>
+       Home
+        </a>  
       </li>
-      <li className="nav-item">
-        <a
+      <li >
+        <a 
           href="#about"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -21,7 +21,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li >
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -30,7 +30,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}

@@ -1,8 +1,11 @@
 import React from "react";
 import Container from "./components/container";
+import './style.css'
 
-const App = () =><div class="bg-secondary">
-     <Container /> 
-</div>;
-
+const App = () => (
+    
+      <Container />
+    
+  );
+  
 export default App;
